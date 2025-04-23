@@ -3,26 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
+    <title>Kernelize</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #222222;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
+        }
+        .hero img {
+            width: 50%;
+            max-width: 500px;
+            margin-bottom: 20px;
+        }
+        .hero h1 {
+            font-size: 60px;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .hero p {
+            font-size: 24px;
+            text-shadow: 1px 1px 2px #000000;
+        }
+        .content {
             padding: 50px;
-            background-color: #f0f0f0;
+            position: relative;
+            text-align: center;
         }
-        h1 {
-            font-size: 4em;
-            color: #333;
+        .content::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            opacity: 0.3;
+            z-index: -1;
         }
-        p {
-            font-size: 2em;
-            color: #666;
+        .space1::before {
+            background-image: url('space-image1.jpg');
+        }
+        .space2::before {
+            background-image: url('space-image2.jpg');
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        @media (min-width: 768px) {
+            .content {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .content img {
+                max-width: 40%;
+            }
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222222;
+        }
+        .logo {
+            filter: invert(1);
         }
     </style>
 </head>
 <body>
-    <h1>Coming Soon</h1>
-    <p>Our website is under construction. Stay tuned!</p>
+    <section class="hero">
+        <img src="img/kernelize.icon.png" alt="Abstract Logo" class="logo">
+        <h1>Kernelize</h1>
+        <p>Coming soon...</p>
+    </section>
 </body>
 </html>
