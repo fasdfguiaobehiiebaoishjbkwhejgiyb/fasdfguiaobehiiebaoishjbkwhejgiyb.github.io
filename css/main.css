@@ -56,6 +56,7 @@ header {
   padding: var(--spacing-md) 0; /* Vertical padding, horizontal handled by inner div */
   z-index: 20; /* Higher than the nav */
   /* Removed position:relative, left, transform as width:100% suffices */
+  position: relative;
 }
 
 header div {
@@ -423,9 +424,10 @@ button:hover, .button:hover {
 
   nav {
     position: absolute;
-    top: 100%; /* Position below the header */
+    top: calc(100% - 1px); /* Adjust to prevent double border */    
     left: 0;
-    width: 100%;
+    right: 0;
+    width: 100vw;
     background-color: var(--bg-color);
     border-top: 1px solid var(--border-color); /* Add top border */
     border-bottom: 1px solid var(--border-color); /* Add bottom border */
