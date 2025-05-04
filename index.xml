@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kernelize</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kernelize.ai/</link>
     <description>Recent content on Kernelize</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 May 2025 09:00:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 May 2025 12:00:00 -0400</lastBuildDate>
+    <atom:link href="https://kernelize.ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact Us</title>
+      <link>https://kernelize.ai/contact/</link>
+      <pubDate>Sat, 03 May 2025 12:00:00 -0400</pubDate>
+      <guid>https://kernelize.ai/contact/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;!-- Right column: Contact form --&amp;gt;&#xA;&amp;lt;form class=&amp;quot;contact-form&amp;quot; action=&amp;quot;/contact/submit&amp;quot; method=&amp;quot;POST&amp;quot;&amp;gt;&#xA;  &amp;lt;h2&amp;gt;Send Us a Message&amp;lt;/h2&amp;gt;&#xA;&#xA;  &amp;lt;label for=&amp;quot;name&amp;quot;&amp;gt;Name&amp;lt;/label&amp;gt;&#xA;  &amp;lt;input type=&amp;quot;text&amp;quot; id=&amp;quot;name&amp;quot; name=&amp;quot;name&amp;quot; required placeholder=&amp;quot;Your name&amp;quot;&amp;gt;&#xA;&#xA;  &amp;lt;label for=&amp;quot;email&amp;quot;&amp;gt;Email&amp;lt;/label&amp;gt;&#xA;  &amp;lt;input type=&amp;quot;email&amp;quot; id=&amp;quot;email&amp;quot; name=&amp;quot;email&amp;quot; required placeholder=&amp;quot;you@example.com&amp;quot;&amp;gt;&#xA;&#xA;  &amp;lt;label for=&amp;quot;subject&amp;quot;&amp;gt;Subject&amp;lt;/label&amp;gt;&#xA;  &amp;lt;input type=&amp;quot;text&amp;quot; id=&amp;quot;subject&amp;quot; name=&amp;quot;subject&amp;quot; required placeholder=&amp;quot;Subject of your message&amp;quot;&amp;gt;&#xA;&#xA;  &amp;lt;label for=&amp;quot;message&amp;quot;&amp;gt;Message&amp;lt;/label&amp;gt;&#xA;  &amp;lt;textarea id=&amp;quot;message&amp;quot; name=&amp;quot;message&amp;quot; rows=&amp;quot;5&amp;quot; required placeholder=&amp;quot;How can we help?&amp;quot;&amp;gt;&amp;lt;/textarea&amp;gt;&#xA;&#xA;  &amp;lt;p class=&amp;quot;privacy-note&amp;quot;&amp;gt;&#xA;    We respect your privacy. By submitting this form, you agree to our &#xA;    &amp;lt;a href=&amp;quot;/privacy-policy/&amp;quot;&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;.&#xA;  &amp;lt;/p&amp;gt;&#xA;&#xA;  &amp;lt;button type=&amp;quot;submit&amp;quot; class=&amp;quot;button&amp;quot;&amp;gt;Send Message&amp;lt;/button&amp;gt;&#xA;&amp;lt;/form&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
     <item>
       <title>Open Core Ventures announces Kernelize</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>https://kernelize.ai/posts/welcome/</link>
       <pubDate>Thu, 01 May 2025 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
+      <guid>https://kernelize.ai/posts/welcome/</guid>
       <description>&lt;p&gt;Open Core Ventures (OCV) has just unveiled &lt;strong&gt;Kernelize Inc.&lt;/strong&gt;, an innovative AI compiler platform designed to “bridge the CUDA moat” by auto-generating optimized backends for a wide variety of hardware targets. Built on the open-source Triton compiler, Kernelize lets developers write high-performance GPU kernels in Python once and deploy them across GPUs, NPUs, TPUs, and more—eliminating lock-in to any single vendor’s proprietary stack. Founded by industry veteran Simon Waters, whose résumé includes leading AMD’s Triton contributions and co-creating the Catapult C Synthesis tool, Kernelize aims to democratize AI performance and accelerate hardware-agnostic innovation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://kernelize.ai/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://kernelize.ai/about/</guid>
       <description>&lt;p&gt;this is an about page&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jobs</title>
-      <link>http://localhost:1313/jobs/</link>
+      <link>https://kernelize.ai/jobs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/jobs/</guid>
+      <guid>https://kernelize.ai/jobs/</guid>
       <description>&lt;p&gt;Welcome to our Jobs page!&lt;/p&gt;</description>
     </item>
   </channel>
