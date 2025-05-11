@@ -702,7 +702,6 @@ button:hover, .button:hover {
   font-size:1.1rem;
   color: #ccc;
   line-height:1.8;
-  max-width:38ch;
 
 }
 
@@ -756,10 +755,17 @@ button:hover, .button:hover {
   box-shadow: 0 0 35px var(--primary-accent-shadow-strong);
 }
 
-@keyframes button-pulse {
-  0%,100%   { transform: scale(1); }
-  50%       { transform: scale(1.05); }
+/* make the copy column wider on desktop */
+.contact-wrapper > .contact-copy {
+  /* grow to ~60% of the row instead of 40% */
+  flex: 1 1 60%;
+  max-width: none;    /* kill any previous cap like 35ch or 38ch */
 }
-.contact-mailto {
-  animation: button-pulse 4s ease-in-out infinite;
+
+/* if you also set a max-width on the text for readability,
+   bump it up or remove it entirely: */
+.contact-copy {
+  max-width: none;    /* lets it fill its flex slot */
+  /* or, if you want a readable cap: */
+  /* max-width: 50ch; */
 }
