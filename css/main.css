@@ -633,3 +633,133 @@ button:hover, .button:hover {
 .team-linkedin-link:hover .linkedin-icon-dark {
   fill: var(--primary-accent-hover);
 }
+
+.team-member-links {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin-top: var(--spacing-md);
+  flex-wrap: wrap; /* Ensures good layout on small screens */
+}
+
+.team-icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary-accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.team-icon-link:hover {
+  color: var(--primary-accent-hover);
+}
+
+.team-icon-link svg {
+  fill: var(--icon-color);
+  transition: fill 0.2s ease;
+}
+
+.team-icon-link:hover svg {
+  fill: var(--primary-accent-hover);
+}
+/* --- contact page layout ---------------------------------------------- */
+
+.contact-wrapper{
+  max-width: var(--content-max-width);
+  margin: var(--spacing-xxl) auto;
+  padding: 0 var(--spacing-lg);
+  padding-top: var(--spacing-xxl);  /* e.g. 3rem or more */
+  display:flex;
+  align-items:center;
+  gap: var(--spacing-xxl);
+}
+
+.contact-hero-art{
+  flex:1 1 50%;
+  max-width:600px;
+  border-radius:var(--radius-md);
+  box-shadow:0 0 25px var(--primary-accent-shadow);
+}
+
+/* copy column */
+.contact-copy{
+  flex:1 1 40%;
+  display:flex;
+  flex-direction:column;
+  gap: var(--spacing-lg);
+  text-align:left;
+  max-width: 35ch;
+}
+
+.contact-heading{
+  font-size:2.6rem;
+  margin:0;
+  text-shadow:0 0 12px var(--primary-accent-shadow);
+}
+
+.contact-lead{
+  font-size:1.1rem;
+  color: #ccc;
+  line-height:1.8;
+  max-width:38ch;
+
+}
+
+.contact-mailto{
+  align-self:flex-start;               /* keeps the button flush left */
+  padding:.85rem 1.85rem;
+  background:var(--primary-accent);
+  color:var(--heading-color);
+  font-weight:600;
+  border-radius:var(--radius-sm);
+  transition:background .25s ease, box-shadow .25s ease;
+}
+
+.contact-mailto:hover{
+  background:var(--primary-accent-hover);
+  box-shadow:0 0 15px var(--primary-accent-shadow-strong);
+}
+
+/* mobile: stack image above text --------------------------------------- */
+@media(max-width:768px){
+  .contact-wrapper{
+    flex-direction:column;
+    text-align:center;
+  }
+  .contact-copy{
+    align-items:center;
+  }
+  .contact-mailto{
+    align-self:center;
+  }
+}
+
+.contact-fallback {
+  margin-top: var(--spacing-lg);
+  font-size: 0.9rem;
+  color: var(--text-color-secondary);
+}
+.contact-fallback a {
+  color: var(--primary-accent);
+  text-decoration: underline;
+}
+.contact-fallback a:hover {
+  color: var(--primary-accent-hover);
+}
+
+.contact-hero-art {
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.contact-hero-art:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 35px var(--primary-accent-shadow-strong);
+}
+
+@keyframes button-pulse {
+  0%,100%   { transform: scale(1); }
+  50%       { transform: scale(1.05); }
+}
+.contact-mailto {
+  animation: button-pulse 4s ease-in-out infinite;
+}
