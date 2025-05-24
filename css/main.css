@@ -769,3 +769,214 @@ button:hover, .button:hover {
   /* or, if you want a readable cap: */
   /* max-width: 50ch; */
 }
+/* ─── Products page overrides & additions ────────────────────────── */
+/* Replace .products-hero img approach with CSS background */
+/* ─── Products page overrides & additions ─── */
+
+/* 1. Hero: animated heat-map gradient */
+.products-hero {
+  position: relative;
+  overflow: hidden;
+  padding: var(--spacing-xxl) 0;
+  background: 
+    linear-gradient(
+      135deg,
+      rgba(123, 104, 238, 0.8) 0%,
+      rgba(20, 240, 225, 0.8) 60%,
+      rgba(123, 104, 238, 0.6) 100%
+    );
+  background-blend-mode: multiply;
+  background-size: 200% 200%;
+  animation: heatmap-pulse 10s ease-in-out infinite;
+  background-color: var(--bg-color);
+}
+@keyframes heatmap-pulse {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.products-hero .hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+  text-align: center;
+}
+.products-hero .hero-inner h1 {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--heading-color);
+  text-shadow: 0 0 12px var(--primary-accent-shadow-strong);
+}
+.products-hero .hero-inner p {
+  max-width: 65ch;
+  margin: var(--spacing-sm) auto;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--text-color-secondary);
+}
+
+/* 2. Product grid */
+.products-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-xl);
+  max-width: var(--content-max-width);
+  margin: 0 auto var(--spacing-xxl);
+  padding: 0 var(--spacing-lg);
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px var(--primary-accent-shadow);
+  border-color: var(--primary-accent);
+}
+.product-card__accent {
+  height: 6px;
+  background-color: var(--primary-accent);
+  transition: background-color 0.3s ease;
+}
+.product-card:hover .product-card__accent {
+  background-color: var(--primary-accent-hover);
+}
+.product-card__logo {
+  width: 4rem;
+  height: 4rem;
+  margin: var(--spacing-lg) auto var(--spacing-md);
+}
+.product-card h2 {
+  font-size: 1.5rem;
+  margin: 0 var(--spacing-lg) var(--spacing-sm);
+  color: var(--heading-color);
+}
+.product-card p {
+  flex: 1;
+  margin: 0 var(--spacing-lg) var(--spacing-lg);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--text-color-secondary);
+}
+
+/* 3. CTA footer */
+.products-cta {
+  text-align: center;
+  margin: var(--spacing-xxl) 0;
+}
+.products-cta p {
+  max-width: 50ch;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+.products-cta p a {
+  color: var(--primary-accent);
+  text-decoration: underline;
+}
+.products-cta p a:hover {
+  color: var(--primary-accent-hover);
+  text-shadow: 0 0 8px var(--primary-accent-shadow);
+}
+
+.products-hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-xxl);
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+  flex-wrap: wrap;
+}
+.products-hero-text {
+  flex: 1 1 55%;
+}
+.products-hero-graphic {
+  flex: 1 1 40%;
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Layout for hero text + graphic */
+.products-hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-xxl);
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+  flex-wrap: wrap;          /* Stack on narrow screens */
+}
+
+.products-hero-text {
+  flex: 1 1 55%;
+}
+
+.products-hero-text p {
+  /* (you already bumped this to 65ch) */
+  max-width: 65ch;
+  margin-bottom: var(--spacing-lg);
+}
+
+.products-hero-graphic {
+  flex: 1 1 40%;
+  max-width: 480px;   /* control its visual weight */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: var(--spacing-xxl); /* gives breathing room if it wraps */
+}
+
+/* Responsive fallback */
+@media (max-width: 768px) {
+  .products-hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .products-hero-graphic {
+    margin-top: var(--spacing-md);
+  }
+}
+
+.product-card__header {
+  display: flex;
+  align-items: center;          /* vertical centering */
+  gap: var(--spacing-md);        /* space between logo & title */
+  padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-sm);
+}
+
+.product-card__logo--inline {
+  width: 2.25rem;                /* slightly smaller icon */
+  height: 2.25rem;
+  flex-shrink: 0;                /* never shrink below this size */
+}
+
+.product-card__header h2 {
+  font-size: 1.3rem;             /* tune size to sit nicely beside the icon */
+  margin: 0;                     /* remove default heading margins */
+  color: var(--heading-color);
+  flex: 1;                       /* take the rest of the space */
+}
+
+.product-card h2 {
+  font-size: 1.8rem;
+  margin: 0;       /* reset bottom margin */
+  margin-left: 10px;
+  color: var(--heading-color);
+}
+
+.product-card p {
+  margin: var(--spacing-sm) var(--spacing-lg) var(--spacing-lg);
+}
