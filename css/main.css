@@ -19,7 +19,8 @@
   --error-color: #ff5c5c;
   --error-bg: rgba(255, 92, 92, .1);
   --icon-color: #e6e6e6;
-  --font-body: 'Space Mono', 'Roboto Mono', monospace, sans-serif;
+  /* Use Arial as the primary font */
+  --font-body: 'Arial', sans-serif;
   --content-max-width: 1312px;
   --header-height: 60px;
 
@@ -55,6 +56,8 @@ body {
   background: var(--bg-color) radial-gradient(var(--bg-gradient-dot)1px, transparent 1px);
   background-size: 30px 30px;
   font-family: var(--font-body);
+  /* Slightly larger default text for better readability */
+  font-size: 18px;
   line-height: 1.6;
   margin: 0;
   padding: 0 var(--spacing-lg);
@@ -150,7 +153,8 @@ nav li {
 
 nav a {
   color: var(--primary-accent);
-  font-size: 1rem;
+  /* Slightly larger navigation text */
+  font-size: 1.1rem;
   text-decoration: none;
   transition: color .2s ease, text-shadow .2s ease;
 }
@@ -172,7 +176,7 @@ footer {
   padding: var(--spacing-md) 0;
   border-top: 1px solid var(--border-color);
   color: var(--text-color-footer);
-  font-size: .9rem;
+  font-size: 1rem;
 }
 
 footer>div {
