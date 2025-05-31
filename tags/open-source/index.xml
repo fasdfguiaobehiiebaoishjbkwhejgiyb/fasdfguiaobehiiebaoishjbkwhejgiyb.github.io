@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open-Source on Kernelize</title>
+    <link>http://localhost:1313/tags/open-source/</link>
+    <description>Recent content in Open-Source on Kernelize</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Sep 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Hardware Standards</title>
+      <link>http://localhost:1313/blog/open-hardware-standards/</link>
+      <pubDate>Thu, 12 Sep 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/open-hardware-standards/</guid>
+      <description>&lt;p&gt;Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ecosystem News Roundup</title>
+      <link>http://localhost:1313/blog/ecosystem-news-roundup/</link>
+      <pubDate>Sun, 01 Sep 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/ecosystem-news-roundup/</guid>
+      <description>&lt;p&gt;Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source Toolchains</title>
+      <link>http://localhost:1313/blog/open-source-toolchains/</link>
+      <pubDate>Thu, 15 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/open-source-toolchains/</guid>
+      <description>&lt;p&gt;Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building Community Around Open Source</title>
+      <link>http://localhost:1313/blog/building-community-around-open-source/</link>
+      <pubDate>Thu, 08 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/building-community-around-open-source/</guid>
+      <description>&lt;p&gt;Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source for AI</title>
+      <link>http://localhost:1313/blog/open-source-for-ai/</link>
+      <pubDate>Wed, 10 Jul 2024 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/open-source-for-ai/</guid>
+      <description>&lt;p&gt;Quisque eget velit in nunc facilisis aliquet. Suspendisse potenti. Mauris ullamcorper nunc et ligula gravida, vel consequat sapien efficitur.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

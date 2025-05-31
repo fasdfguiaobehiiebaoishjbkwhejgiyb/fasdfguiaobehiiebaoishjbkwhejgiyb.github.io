@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Kernelize</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Kernelize</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Sep 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benchmarking with Kernelize</title>
+      <link>http://localhost:1313/blog/benchmarking-with-kernelize/</link>
+      <pubDate>Wed, 18 Sep 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/benchmarking-with-kernelize/</guid>
+      <description>&lt;p&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Triton Roadmap Update</title>
+      <link>http://localhost:1313/blog/triton-roadmap-update/</link>
+      <pubDate>Sun, 15 Sep 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/triton-roadmap-update/</guid>
+      <description>&lt;p&gt;Curabitur suscipit suscipit tellus. Phasellus consectetuer vestibulum elit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Hardware Standards</title>
+      <link>http://localhost:1313/blog/open-hardware-standards/</link>
+      <pubDate>Thu, 12 Sep 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/open-hardware-standards/</guid>
+      <description>&lt;p&gt;Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kernelize Internal Hacks</title>
+      <link>http://localhost:1313/blog/kernelize-internal-hacks/</link>
+      <pubDate>Sun, 08 Sep 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/kernelize-internal-hacks/</guid>
+      <description>&lt;p&gt;Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Machine Learning on the Edge</title>
+      <link>http://localhost:1313/blog/machine-learning-on-edge/</link>
+      <pubDate>Thu, 05 Sep 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/machine-learning-on-edge/</guid>
+      <description>&lt;p&gt;Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ecosystem News Roundup</title>
+      <link>http://localhost:1313/blog/ecosystem-news-roundup/</link>
+      <pubDate>Sun, 01 Sep 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/ecosystem-news-roundup/</guid>
+      <description>&lt;p&gt;Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Accelerator Driver Insights</title>
+      <link>http://localhost:1313/blog/accelerator-driver-insights/</link>
+      <pubDate>Wed, 28 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/accelerator-driver-insights/</guid>
+      <description>&lt;p&gt;Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Learning Compilers</title>
+      <link>http://localhost:1313/blog/deep-learning-compilers/</link>
+      <pubDate>Sun, 25 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/deep-learning-compilers/</guid>
+      <description>&lt;p&gt;Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Optimizing Memory Bandwidth</title>
+      <link>http://localhost:1313/blog/optimizing-memory-bandwidth/</link>
+      <pubDate>Thu, 22 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/optimizing-memory-bandwidth/</guid>
+      <description>&lt;p&gt;Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hardware Acceleration Case Study</title>
+      <link>http://localhost:1313/blog/hardware-acceleration-case-study/</link>
+      <pubDate>Sun, 18 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/hardware-acceleration-case-study/</guid>
+      <description>&lt;p&gt;Integer nec odio. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source Toolchains</title>
+      <link>http://localhost:1313/blog/open-source-toolchains/</link>
+      <pubDate>Thu, 15 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/open-source-toolchains/</guid>
+      <description>&lt;p&gt;Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Triton Tips and Tricks</title>
+      <link>http://localhost:1313/blog/triton-tips-and-tricks/</link>
+      <pubDate>Mon, 12 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/triton-tips-and-tricks/</guid>
+      <description>&lt;p&gt;Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building Community Around Open Source</title>
+      <link>http://localhost:1313/blog/building-community-around-open-source/</link>
+      <pubDate>Thu, 08 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/building-community-around-open-source/</guid>
+      <description>&lt;p&gt;Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Accelerator Benchmarks</title>
+      <link>http://localhost:1313/blog/ai-accelerator-benchmarks/</link>
+      <pubDate>Mon, 05 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/ai-accelerator-benchmarks/</guid>
+      <description>&lt;p&gt;Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compiler Optimizations Explained</title>
+      <link>http://localhost:1313/blog/compiler-optimizations-explained/</link>
+      <pubDate>Thu, 01 Aug 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/compiler-optimizations-explained/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hardware Discovery Process</title>
+      <link>http://localhost:1313/blog/hardware-discovery-process/</link>
+      <pubDate>Sat, 20 Jul 2024 14:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/hardware-discovery-process/</guid>
+      <description>&lt;p&gt;Integer tempor purus at quam scelerisque, sit amet ullamcorper neque consequat. Ut nec lacus sit amet est hendrerit lacinia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source for AI</title>
+      <link>http://localhost:1313/blog/open-source-for-ai/</link>
+      <pubDate>Wed, 10 Jul 2024 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/open-source-for-ai/</guid>
+      <description>&lt;p&gt;Quisque eget velit in nunc facilisis aliquet. Suspendisse potenti. Mauris ullamcorper nunc et ligula gravida, vel consequat sapien efficitur.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Next-gen Hardware Trends</title>
+      <link>http://localhost:1313/blog/next-gen-hardware-trends/</link>
+      <pubDate>Mon, 01 Jul 2024 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/next-gen-hardware-trends/</guid>
+      <description>&lt;p&gt;Nullam ornare, nunc vel consequat bibendum, nisl felis posuere massa, vitae mollis felis risus ut nisi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Optimizing with Triton</title>
+      <link>http://localhost:1313/blog/optimizing-with-triton/</link>
+      <pubDate>Sat, 15 Jun 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/optimizing-with-triton/</guid>
+      <description>&lt;p&gt;Praesent eu purus nec lorem dignissim fermentum. Curabitur vel turpis nec odio tempor fringilla ac sed augue.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introducing Kernelize Forge</title>
+      <link>http://localhost:1313/blog/introducing-kernelize-forge/</link>
+      <pubDate>Sat, 01 Jun 2024 12:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/blog/introducing-kernelize-forge/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci sit amet massa dapibus tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
