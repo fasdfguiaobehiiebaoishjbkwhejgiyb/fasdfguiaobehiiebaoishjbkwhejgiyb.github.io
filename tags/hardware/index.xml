@@ -15,54 +15,5 @@
       <guid>http://localhost:1313/blog/benchmarking-with-kernelize/</guid>
       <description>&lt;p&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Machine Learning on the Edge</title>
-      <link>http://localhost:1313/blog/machine-learning-on-edge/</link>
-      <pubDate>Thu, 05 Sep 2024 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/blog/machine-learning-on-edge/</guid>
-      <description>&lt;p&gt;Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Accelerator Driver Insights</title>
-      <link>http://localhost:1313/blog/accelerator-driver-insights/</link>
-      <pubDate>Wed, 28 Aug 2024 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/blog/accelerator-driver-insights/</guid>
-      <description>&lt;p&gt;Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Optimizing Memory Bandwidth</title>
-      <link>http://localhost:1313/blog/optimizing-memory-bandwidth/</link>
-      <pubDate>Thu, 22 Aug 2024 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/blog/optimizing-memory-bandwidth/</guid>
-      <description>&lt;p&gt;Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hardware Acceleration Case Study</title>
-      <link>http://localhost:1313/blog/hardware-acceleration-case-study/</link>
-      <pubDate>Sun, 18 Aug 2024 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/blog/hardware-acceleration-case-study/</guid>
-      <description>&lt;p&gt;Integer nec odio. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI Accelerator Benchmarks</title>
-      <link>http://localhost:1313/blog/ai-accelerator-benchmarks/</link>
-      <pubDate>Mon, 05 Aug 2024 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/blog/ai-accelerator-benchmarks/</guid>
-      <description>&lt;p&gt;Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hardware Discovery Process</title>
-      <link>http://localhost:1313/blog/hardware-discovery-process/</link>
-      <pubDate>Sat, 20 Jul 2024 14:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/blog/hardware-discovery-process/</guid>
-      <description>&lt;p&gt;Integer tempor purus at quam scelerisque, sit amet ullamcorper neque consequat. Ut nec lacus sit amet est hendrerit lacinia.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Next-gen Hardware Trends</title>
-      <link>http://localhost:1313/blog/next-gen-hardware-trends/</link>
-      <pubDate>Mon, 01 Jul 2024 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/blog/next-gen-hardware-trends/</guid>
-      <description>&lt;p&gt;Nullam ornare, nunc vel consequat bibendum, nisl felis posuere massa, vitae mollis felis risus ut nisi.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

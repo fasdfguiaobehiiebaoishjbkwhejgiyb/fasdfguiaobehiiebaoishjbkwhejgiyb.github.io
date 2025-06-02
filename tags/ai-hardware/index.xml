@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Kernelize</title>
-    <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blog on Kernelize</description>
+    <title>AI Hardware on Kernelize</title>
+    <link>http://localhost:1313/tags/ai-hardware/</link>
+    <description>Recent content in AI Hardware on Kernelize</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ai-hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Series 1, Part 1 – The AI Hardware Accelerator Landscape &amp; Its Software Bottlenecks</title>
       <link>http://localhost:1313/blog/ai-hardware-accelerator-landscape-part-1/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/ai-hardware-accelerator-landscape-part-1/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;CPUs and GPUs have been at the center of the AI boom, and the capabilities of AI models have grown exponentially while running on these traditional processors. With all of the impressive LLMs and generative-AI models available today, it is easy to forget we are still in the early days of AI. Future AI models will need significantly more processing power.&lt;/p&gt;&#xA;&lt;p&gt;We have the deepest respect for the engineers who have stretched CPU and GPU hardware and software to support AI workloads. But CPU and GPU architectures were never designed for AI, and we are increasingly hitting limits in efficiency and power consumption. Inference costs are inflated by running on hardware architected for other applications. A new kind of architecture is needed to run AI efficiently.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Benchmarking with Kernelize</title>
-      <link>http://localhost:1313/blog/benchmarking-with-kernelize/</link>
-      <pubDate>Wed, 18 Sep 2024 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/blog/benchmarking-with-kernelize/</guid>
-      <description>&lt;p&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
