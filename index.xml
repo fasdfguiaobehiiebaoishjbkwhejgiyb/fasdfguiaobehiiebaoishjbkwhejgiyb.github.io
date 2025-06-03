@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kernelize</title>
-    <link>https://kernelize.ai/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Kernelize</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kernelize.ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Products</title>
-      <link>https://kernelize.ai/products/</link>
+      <link>http://localhost:1313/products/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kernelize.ai/products/</guid>
+      <guid>http://localhost:1313/products/</guid>
       <description>&lt;p&gt;Kernelize uses and actively supports the open-source Triton compiler and language. Triton is widely used to describe optimized GPU kernels and we leverage Triton to quickly target and optimize for new AI accelerator hardware.&lt;/p&gt;&#xA;&lt;p&gt;Triton already supports autotune to search for supported and optimal kernels, so the main features needed to target new hardware are a modular backend and discovery-based runtime. Most AI frameworks and ML graph compilers already target Triton by default.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Series 1, Part 1 – The AI Hardware Accelerator Landscape &amp; Its Software Bottlenecks</title>
-      <link>https://kernelize.ai/blog/ai-hardware-accelerator-landscape-part-1/</link>
+      <link>http://localhost:1313/blog/ai-hardware-accelerator-landscape-part-1/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://kernelize.ai/blog/ai-hardware-accelerator-landscape-part-1/</guid>
+      <guid>http://localhost:1313/blog/ai-hardware-accelerator-landscape-part-1/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;main.png&#34; alt=&#34;CPU and GPU architectures&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;CPUs and GPUs have been at the center of the AI boom, and the capabilities of AI models have grown exponentially while running on these traditional processors. With all of the impressive LLMs and generative-AI models available today, it is easy to forget we are still in the early days of AI. Future AI models will need significantly more processing power.&lt;/p&gt;&#xA;&lt;p&gt;We have the deepest respect for the engineers who have stretched CPU and GPU hardware and software to support AI workloads. But CPU and GPU architectures were never designed for AI, and we are increasingly hitting limits in efficiency and power consumption. Inference costs are inflated by running on hardware architected for other applications. A new kind of architecture is needed to run AI efficiently.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open Core Ventures announces Kernelize</title>
-      <link>https://kernelize.ai/posts/welcome/</link>
+      <link>http://localhost:1313/posts/welcome/</link>
       <pubDate>Thu, 01 May 2025 09:00:00 -0700</pubDate>
-      <guid>https://kernelize.ai/posts/welcome/</guid>
+      <guid>http://localhost:1313/posts/welcome/</guid>
       <description>&lt;p&gt;Open Core Ventures (OCV) has just unveiled &lt;strong&gt;Kernelize Inc.&lt;/strong&gt;, an innovative AI compiler platform designed to “bridge the CUDA moat” by auto-generating optimized backends for a wide variety of hardware targets. Built on the open-source Triton compiler, Kernelize lets developers write high-performance GPU kernels in Python once and deploy them across GPUs, NPUs, TPUs, and more—eliminating lock-in to any single vendor’s proprietary stack. Founded by industry veteran Simon Waters, whose résumé includes leading AMD’s Triton contributions and co-creating the Catapult C Synthesis tool, Kernelize aims to democratize AI performance and accelerate hardware-agnostic innovation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Benchmarking with Kernelize</title>
-      <link>https://kernelize.ai/blog/benchmarking-with-kernelize/</link>
+      <link>http://localhost:1313/blog/benchmarking-with-kernelize/</link>
       <pubDate>Wed, 18 Sep 2024 09:00:00 -0700</pubDate>
-      <guid>https://kernelize.ai/blog/benchmarking-with-kernelize/</guid>
+      <guid>http://localhost:1313/blog/benchmarking-with-kernelize/</guid>
       <description>&lt;p&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://kernelize.ai/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kernelize.ai/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Our team includes experts with extensive experience in Triton and building systems for AI inference.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://kernelize.ai/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kernelize.ai/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>&lt;h1 id=&#34;contact-us&#34;&gt;Contact us&lt;/h1&gt;&#xA;&lt;p&gt;Please &lt;a href=&#34;mailto:simon@kernelize.ai&#34;&gt;Email Simon&lt;/a&gt; if you have any questions about Kernelize&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jobs</title>
-      <link>https://kernelize.ai/jobs/</link>
+      <link>http://localhost:1313/jobs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kernelize.ai/jobs/</guid>
+      <guid>http://localhost:1313/jobs/</guid>
       <description>&lt;p&gt;Welcome to our Jobs page!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pricing</title>
-      <link>https://kernelize.ai/pricing/</link>
+      <link>http://localhost:1313/pricing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kernelize.ai/pricing/</guid>
+      <guid>http://localhost:1313/pricing/</guid>
       <description>&lt;p&gt;Looking for access to better AI Accelerator Hardware?&lt;/p&gt;&#xA;&lt;p&gt;Kernelize’s products will be released as soon as supported AI accelerator hardware is released. We will update this page with more information after each hardware release.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ai-inference-accelerator-hardware-providers&#34;&gt;AI Inference Accelerator Hardware Providers&lt;/h2&gt;&#xA;&lt;p&gt;Our goal at Kernelize is to seamlessly move GPU workloads to your AI Inference hardware. We provide access to an open-source compiler and consistent AI inference solutions for AI inference hardware. Please contact &lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;mailto:sales@kernelize.com&#34;&gt;sales@kernelize.com&lt;/a&gt;&lt;!-- raw HTML omitted --&gt; if you would like to know more about Kernelize supporting your hardware.&lt;/p&gt;</description>
     </item>
   </channel>
