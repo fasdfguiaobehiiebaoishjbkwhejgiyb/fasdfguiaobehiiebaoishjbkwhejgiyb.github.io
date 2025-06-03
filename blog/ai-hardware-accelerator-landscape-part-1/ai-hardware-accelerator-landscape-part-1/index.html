@@ -76,7 +76,7 @@
 <h3 id="why-traditional-processors-cannot-efficiently-run-ai-workloads">Why Traditional Processors Cannot Efficiently Run AI Workloads</h3>
 <p>The power demand of AI inference is growing exponentially—entire power plants are being planned to feed AI datacenters. Over the past few years teams have focused on building the latest LLMs rather than reducing the cost of older models, but now that many models are maturing, efficiency matters.</p>
 <p>Why not simply enhance traditional processors? In one sense we already do: CPUs and GPUs sprout ever-larger tensor cores and AI “springs.” Still, the underlying architectures remain general purpose.</p>
-<p><img src="cpu.png" alt="CPU and GPU architectures"></p>
+<p><img src="/images/blog/ai-hardware-accelerator-landscape/part1/cpu-gpu-architectures.png" alt="CPU and GPU architectures"></p>
 <ul>
 <li><strong>CPUs</strong> excel at control-heavy general-purpose workloads thanks to branch prediction, deep caches, and rich instruction sets, but they devote relatively little silicon to multiply-accumulate (MAC) units.</li>
 <li><strong>GPUs</strong> were designed for massive graphics workloads. A single control unit drives thousands of arithmetic units, but GPUs carry datapaths, registers, and memory bandwidth tuned for high-precision graphics and training, not low-precision inference. Much of the silicon—and power budget—goes unused during inference.</li>
@@ -89,7 +89,7 @@
 <li><strong>Datacenter inference</strong> — latency-critical services at scale.</li>
 <li><strong>Training</strong> — the bleeding edge, though today’s post focuses on inference.</li>
 </ul>
-<p><img src="npu.png" alt="Generic NPU diagram"></p>
+<p><img src="/images/blog/ai-hardware-accelerator-landscape/part1/generic-npu.png" alt="Generic NPU diagram"></p>
 <p>Compared with GPUs, NPUs devote an even larger fraction of die area to compute and drastically simplify control. Key architectural themes are shared across devices:</p>
 <ul>
 <li><strong>Tiled dataflow.</strong> Tensors are partitioned so data stays close to compute, reducing costly movements up and down the memory hierarchy.</li>
