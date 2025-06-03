@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardware on Kernelize</title>
-    <link>http://localhost:1313/tags/hardware/</link>
+    <link>https://kernelize.ai/tags/hardware/</link>
     <description>Recent content in Hardware on Kernelize</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Sep 2024 09:00:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kernelize.ai/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Benchmarking with Kernelize</title>
-      <link>http://localhost:1313/blog/benchmarking-with-kernelize/</link>
+      <link>https://kernelize.ai/blog/benchmarking-with-kernelize/</link>
       <pubDate>Wed, 18 Sep 2024 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/blog/benchmarking-with-kernelize/</guid>
+      <guid>https://kernelize.ai/blog/benchmarking-with-kernelize/</guid>
       <description>&lt;p&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui.&lt;/p&gt;</description>
     </item>
   </channel>

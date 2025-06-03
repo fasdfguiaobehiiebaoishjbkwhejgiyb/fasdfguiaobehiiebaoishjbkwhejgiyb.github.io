@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kernelize</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://kernelize.ai/tags/</link>
     <description>Recent content in Tags on Kernelize</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kernelize.ai/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accelerators</title>
-      <link>http://localhost:1313/tags/accelerators/</link>
+      <link>https://kernelize.ai/tags/accelerators/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/accelerators/</guid>
+      <guid>https://kernelize.ai/tags/accelerators/</guid>
       <description></description>
     </item>
     <item>
       <title>AI Hardware</title>
-      <link>http://localhost:1313/tags/ai-hardware/</link>
+      <link>https://kernelize.ai/tags/ai-hardware/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai-hardware/</guid>
+      <guid>https://kernelize.ai/tags/ai-hardware/</guid>
       <description></description>
     </item>
     <item>
       <title>AI Infrastructure</title>
-      <link>http://localhost:1313/tags/ai-infrastructure/</link>
+      <link>https://kernelize.ai/tags/ai-infrastructure/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai-infrastructure/</guid>
+      <guid>https://kernelize.ai/tags/ai-infrastructure/</guid>
       <description></description>
     </item>
     <item>
       <title>NPU</title>
-      <link>http://localhost:1313/tags/npu/</link>
+      <link>https://kernelize.ai/tags/npu/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/npu/</guid>
+      <guid>https://kernelize.ai/tags/npu/</guid>
       <description></description>
     </item>
     <item>
       <title>Announcement</title>
-      <link>http://localhost:1313/tags/announcement/</link>
+      <link>https://kernelize.ai/tags/announcement/</link>
       <pubDate>Thu, 01 May 2025 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/announcement/</guid>
+      <guid>https://kernelize.ai/tags/announcement/</guid>
       <description></description>
     </item>
     <item>
       <title>Hardware</title>
-      <link>http://localhost:1313/tags/hardware/</link>
+      <link>https://kernelize.ai/tags/hardware/</link>
       <pubDate>Wed, 18 Sep 2024 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/hardware/</guid>
+      <guid>https://kernelize.ai/tags/hardware/</guid>
       <description></description>
     </item>
   </channel>
