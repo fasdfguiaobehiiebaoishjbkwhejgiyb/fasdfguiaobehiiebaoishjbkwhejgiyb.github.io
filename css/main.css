@@ -1011,8 +1011,9 @@ button:hover,
 /* ─── Generic page-hero (with background image) ─────────────────────── */
 .page__hero {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   text-align: center;
+  padding: var(--spacing-xxl) 0;
 }
 
 .page__hero-img {
@@ -1021,10 +1022,13 @@ button:hover,
 
 /* old image hidden */
 .page__hero-inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .page__hero-inner h1 {
@@ -1034,7 +1038,7 @@ button:hover,
 
 .page__hero-inner h2 {
   margin: 0.5rem 0 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
