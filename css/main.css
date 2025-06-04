@@ -1120,6 +1120,13 @@ button:hover,
   color: var(--heading-color);
 }
 
+.blog-card time {
+  display: block;
+  margin: 0 var(--spacing-md) var(--spacing-sm);
+  color: var(--text-color-secondary);
+  font-size: .95rem;
+}
+
 .blog-card p {
   margin: 0 var(--spacing-md) var(--spacing-md);
   color: var(--text-color-secondary);
