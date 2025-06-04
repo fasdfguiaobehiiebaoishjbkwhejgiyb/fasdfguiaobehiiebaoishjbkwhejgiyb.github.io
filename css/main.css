@@ -1032,6 +1032,12 @@ button:hover,
   font-size: 3rem;
 }
 
+.page__hero-inner h2 {
+  margin: 0.5rem 0 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 .page__content {
   max-width: 720px;
   margin: 2rem auto;

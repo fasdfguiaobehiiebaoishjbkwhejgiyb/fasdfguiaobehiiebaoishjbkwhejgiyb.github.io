@@ -9,7 +9,7 @@
     <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Why Open-source is the Bridge (The Path to Efficient AI, Part 3)</title>
+      <title>Why Open-source is the Bridge</title>
       <link>http://localhost:1313/blog/why-open-source-is-the-bridge/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/why-open-source-is-the-bridge/</guid>
@@ -23,7 +23,7 @@
       <description></description>
     </item>
     <item>
-      <title>Beyond CPUs and GPUs (The Path to Efficient AI, Part 1)</title>
+      <title>Beyond CPUs and GPUs: The Rise of Specialized AI Hardware</title>
       <link>http://localhost:1313/blog/beyond-cpus-and-gpus/</link>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/beyond-cpus-and-gpus/</guid>

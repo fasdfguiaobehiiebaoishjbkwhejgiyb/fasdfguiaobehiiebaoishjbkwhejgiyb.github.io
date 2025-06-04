@@ -16,7 +16,7 @@
       <description></description>
     </item>
     <item>
-      <title>Why Open-source is the Bridge (The Path to Efficient AI, Part 3)</title>
+      <title>Why Open-source is the Bridge</title>
       <link>http://localhost:1313/blog/why-open-source-is-the-bridge/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/why-open-source-is-the-bridge/</guid>
@@ -30,11 +30,11 @@
       <description></description>
     </item>
     <item>
-      <title>Beyond CPUs and GPUs (The Path to Efficient AI, Part 1)</title>
+      <title>Beyond CPUs and GPUs: The Rise of Specialized AI Hardware</title>
       <link>http://localhost:1313/blog/beyond-cpus-and-gpus/</link>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/beyond-cpus-and-gpus/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;main.png&#34; alt=&#34;CPU and GPU architectures&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;CPUs and GPUs have been at the center of the AI boom, and the capabilities of AI models have grown exponentially while running on these traditional processors. With all of the impressive LLMs and generative-AI models available today, it is easy to forget we are still in the early days of AI. Future AI models will need significantly more processing power.&lt;/p&gt;&#xA;&lt;p&gt;We have the deepest respect for the engineers who have stretched CPU and GPU hardware and software to support AI workloads. But CPU and GPU architectures were never designed for AI, and we are increasingly hitting limits in efficiency and power consumption. Inference costs are inflated by running on hardware architected for other applications. A new kind of architecture is needed to run AI efficiently.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;main.png&#34; alt=&#34;CPU and GPU architectures&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;CPUs and GPUs have been at the center of the AI boom, and the capabilities of AI models have grown exponentially while running on these traditional processors. With all of the impressive LLMs and generative AI models available today, it is easy to forget we are still in the early days of AI. Future AI models will need significantly more processing power.&lt;/p&gt;&#xA;&lt;p&gt;We have the deepest respect for the engineers that have stretched CPU and GPU hardware and software to support AI workloads. But, CPU and GPU hardware architectures were not designed for AI and we are increasingly hitting limits in efficiency and power consumption. Inference costs are inflated by running on hardware that was architected for other applications. A new kind of hardware architecture is needed to efficiently run AI workloads.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open Core Ventures announces Kernelize</title>
