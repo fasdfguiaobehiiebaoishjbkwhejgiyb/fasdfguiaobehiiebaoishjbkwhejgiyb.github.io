@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>Products | Kernelize</title>
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-      <link rel="stylesheet" href="/css/main.min.f909aee54e08377626571e7a93e1bf765c3a29c1107667a141931792e8a5dc57.css" integrity="sha256-&#43;Qmu5U4IN3YmVx56k&#43;G/dlw6KcEQdmehQZMXkuil3Fc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
 
 
-        <script src="/js/main.7e0fb3dd9033cb5603638a3bfb9c75e939e237939b8a2ec18b1e448dcc83954a.js" integrity="sha256-fg&#43;z3ZAzy1YDY4o7&#43;5x16TniN5Obii7Bix5EjcyDlUo=" crossorigin="anonymous"></script>
+      <script src="/js/main.js"></script>
 
 
 </head>
@@ -68,17 +68,11 @@
   <div class="products-hero-inner">
     <div class="products-hero-text">
       <h1>Products</h1>
-      <p>
-        Kernelize uses and actively supports the open-source Triton compiler and language.
-        Triton is widely used to describe optimized GPU kernels and we leverage Triton to
-        quickly target and optimize for new AI accelerator hardware.
-      </p>
-      <p>
-        Triton already supports autotune to search for supported and optimal kernels,
-        so the main features needed to target new hardware are a modular backend and
-        discovery-based runtime. Most AI frameworks and ML graph compilers already target
-        Triton by default.
-      </p>
+      
+      <p>Kernelize uses and actively supports the open-source Triton compiler and language. Triton is widely used to describe optimized GPU kernels and we leverage Triton to quickly target and optimize for new AI accelerator hardware.</p>
+      
+      <p>Triton already supports autotune to search for supported and optimal kernels, so the main features needed to target new hardware are a modular backend and discovery-based runtime. Most AI frameworks and ML graph compilers already target Triton by default.</p>
+      
     </div>
 
     <img src="/product-hero.png" alt="Triton compiler architecture illustration" class="products-hero-graphic" />
@@ -88,6 +82,7 @@
 
 
 <section class="products-row" aria-label="Kernelize products">
+  
   <article id="forge" class="product-card">
     <div class="product-card__accent"></div>
     <div class="product-card__header">
@@ -96,15 +91,9 @@
       <h2>Kernelize Forge</h2>
     </div>
 
-    <p>
-      Kernelize Forge is a modular backend for Triton. It extends Triton so the compiler
-      can target more than GPUs. Forge generates an LLVM output based on target-specific
-      primitives. It supports the autotune process to find both what is supported and
-      what is optimal. Forge is configured at compile time based on the Nexus device
-      discovery and autotune.
-    </p>
+    <p>Kernelize Forge is a modular backend for Triton. It extends Triton so the compiler can target more than GPUs. Forge generates an LLVM output based on target-specific primitives. It supports the autotune process to find both what is supported and what is optimal. Forge is configured at compile time based on the Nexus device discovery and autotune.</p>
   </article>
-
+  
   <article id="nexus" class="product-card">
     <div class="product-card__accent"></div>
     <div class="product-card__header">
@@ -113,23 +102,14 @@
       <h2>Kernelize Nexus</h2>
     </div>
 
-    <p>
-      Kernelize Nexus is a discovery-based runtime environment that plugs into every
-      AI framework. It uses automated device discovery to check what is supported and
-      autotune to determine what is optimal. Nexus connects to a runtime plugin to drive 
-      the AI accelerator hardware. The discovery process allows hardware
-      vendors to add features over time or to test new hardware without disclosing
-      low-level hardware details in the compiler.
-    </p>
+    <p>Kernelize Nexus is a discovery-based runtime environment that plugs into every AI framework. It uses automated device discovery to check what is supported and autotune to determine what is optimal. Nexus connects to a runtime plugin to drive the AI accelerator hardware. The discovery process allows hardware vendors to add features over time or to test new hardware without disclosing low-level hardware details in the compiler.</p>
   </article>
+  
 </section>
 
 
 <section class="products-cta">
-  <p>
-    Please contact <a href="mailto:bryan@kernelize.ai">bryan@kernelize.ai</a>
-    if you would like to know more.
-  </p>
+  <p>Please contact <a href="mailto:bryan@kernelize.ai">bryan@kernelize.ai</a> if you would like to know more.</p>
 </section>
 
 
