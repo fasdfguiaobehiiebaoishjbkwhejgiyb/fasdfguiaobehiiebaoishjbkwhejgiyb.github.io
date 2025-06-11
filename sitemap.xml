@@ -37,6 +37,8 @@
   </url><url>
     <loc>http://localhost:1313/jobs/</loc>
   </url><url>
+    <loc>http://localhost:1313/npu-hardware-companies/</loc>
+  </url><url>
     <loc>http://localhost:1313/pricing/</loc>
   </url>
 </urlset>

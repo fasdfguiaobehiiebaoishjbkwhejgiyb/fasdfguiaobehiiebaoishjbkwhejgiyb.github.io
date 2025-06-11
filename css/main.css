@@ -149,6 +149,23 @@ nav ul {
 
 nav li {
   margin: 0;
+  position: relative;
+}
+
+nav li ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  margin: 0;
+  padding: var(--spacing-sm) var(--spacing-md);
+  list-style: none;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  z-index: 50;
+}
+
+nav li:hover > ul {
+  display: block;
 }
 
 nav a {

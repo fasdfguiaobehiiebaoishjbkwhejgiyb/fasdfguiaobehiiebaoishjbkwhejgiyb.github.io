@@ -65,6 +65,13 @@
       <description>&lt;p&gt;Welcome to our Jobs page!&lt;/p&gt;</description>
     </item>
     <item>
+      <title>NPU Hardware Companies</title>
+      <link>http://localhost:1313/npu-hardware-companies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/npu-hardware-companies/</guid>
+      <description>&lt;p&gt;A directory of NPU hardware companies will be listed here soon.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Pricing</title>
       <link>http://localhost:1313/pricing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
