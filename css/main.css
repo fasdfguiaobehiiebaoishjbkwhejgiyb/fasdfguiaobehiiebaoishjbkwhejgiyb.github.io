@@ -168,6 +168,18 @@ nav li:hover > ul {
   display: block;
 }
 
+nav li:has(> ul) > a::after {
+  content: "▾";                     /* tiny caret */
+  margin-left: .35em;
+  font-size: .65em;
+  transition: transform .2s ease;
+}
+
+nav li:has(> ul):hover > a::after,
+nav li:has(> ul):focus-within > a::after {
+  transform: rotate(180deg);        /* flip when open */
+}
+
 nav a {
   color: var(--primary-accent);
   /* Slightly larger navigation text */
