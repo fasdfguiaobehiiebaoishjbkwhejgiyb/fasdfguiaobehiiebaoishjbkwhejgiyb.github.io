@@ -1173,3 +1173,31 @@ button:hover,
   pointer-events: none;
   color: var(--text-color);
 }
+
+/* ─── NPU Hardware Companies grid ───────────────────────────────────── */
+.company-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--spacing-md);
+  padding: 0;
+  margin: 0;
+}
+
+.company-grid li {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  text-align: center;
+  padding: var(--spacing-sm) var(--spacing-md);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.company-grid li a {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.company-grid li a:hover {
+  color: var(--primary-accent-hover);
+}
