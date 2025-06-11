@@ -186,6 +186,10 @@ nav a {
   font-size: 1.1rem;
   text-decoration: none;
   transition: color .2s ease, text-shadow .2s ease;
+  display: block;
+  width: 100%;
+  padding: calc(var(--spacing-sm) + 4px) 0;
+  line-height: 1.4;
 }
 
 nav a:hover {
@@ -527,11 +531,6 @@ button:hover,
     width: 100%;
   }
 
-  nav a {
-    display: block;
-    width: 100%;
-    padding: var(--spacing-sm) 0;
-  }
 
   /* main / footer padding */
   main {
