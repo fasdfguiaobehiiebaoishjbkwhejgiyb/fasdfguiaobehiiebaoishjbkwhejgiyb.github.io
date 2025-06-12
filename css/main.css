@@ -155,6 +155,7 @@ nav li {
 nav li ul {
   display: none;
   position: absolute;
+  top: calc(100% + var(--spacing-xs));
   left: 0;
   margin: 0;
   padding: var(--spacing-sm) var(--spacing-md);
@@ -164,7 +165,8 @@ nav li ul {
   z-index: 50;
 }
 
-nav li:hover > ul {
+nav li:hover > ul,
+nav li:focus-within > ul {
   display: block;
 }
 
@@ -193,6 +195,13 @@ nav a {
 }
 
 nav a:hover {
+  color: var(--primary-accent-hover);
+  text-shadow: 0 0 8px var(--primary-accent-shadow);
+}
+
+nav li:hover > a,
+nav li:focus-within > a,
+nav a:focus {
   color: var(--primary-accent-hover);
   text-shadow: 0 0 8px var(--primary-accent-shadow);
 }
