@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/products/</loc>
+    <loc>https://kernelize.ai/products/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://kernelize.ai/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://kernelize.ai/blog/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/community-beats-code/</loc>
+    <loc>https://kernelize.ai/blog/community-beats-code/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/the-npu-software-gap/</loc>
+    <loc>https://kernelize.ai/blog/the-npu-software-gap/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/beyond-cpus-and-gpus/</loc>
+    <loc>https://kernelize.ai/blog/beyond-cpus-and-gpus/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/announcement/</loc>
+    <loc>https://kernelize.ai/tags/announcement/</loc>
     <lastmod>2025-05-01T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/welcome/</loc>
+    <loc>https://kernelize.ai/posts/welcome/</loc>
     <lastmod>2025-05-01T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://kernelize.ai/posts/</loc>
     <lastmod>2025-05-01T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://kernelize.ai/tags/</loc>
     <lastmod>2025-05-01T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://kernelize.ai/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://kernelize.ai/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/jobs/</loc>
+    <loc>https://kernelize.ai/jobs/</loc>
   </url><url>
-    <loc>http://localhost:1313/npu-hardware-companies/</loc>
+    <loc>https://kernelize.ai/npu-hardware-companies/</loc>
   </url><url>
-    <loc>http://localhost:1313/pricing/</loc>
+    <loc>https://kernelize.ai/pricing/</loc>
   </url>
 </urlset>

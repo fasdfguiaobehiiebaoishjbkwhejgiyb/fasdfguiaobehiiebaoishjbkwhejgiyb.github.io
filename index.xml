@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kernelize</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kernelize.ai/</link>
     <description>Recent content on Kernelize</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kernelize.ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Products</title>
-      <link>http://localhost:1313/products/</link>
+      <link>https://kernelize.ai/products/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/</guid>
+      <guid>https://kernelize.ai/products/</guid>
       <description></description>
     </item>
     <item>
       <title>Community Beats Code</title>
-      <link>http://localhost:1313/blog/community-beats-code/</link>
+      <link>https://kernelize.ai/blog/community-beats-code/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/community-beats-code/</guid>
+      <guid>https://kernelize.ai/blog/community-beats-code/</guid>
       <description></description>
     </item>
     <item>
       <title>The NPU Software Gap (The Path to Efficient AI, Part 2)</title>
-      <link>http://localhost:1313/blog/the-npu-software-gap/</link>
+      <link>https://kernelize.ai/blog/the-npu-software-gap/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/the-npu-software-gap/</guid>
+      <guid>https://kernelize.ai/blog/the-npu-software-gap/</guid>
       <description></description>
     </item>
     <item>
       <title>Beyond CPUs and GPUs: The Rise of Specialized AI Hardware</title>
-      <link>http://localhost:1313/blog/beyond-cpus-and-gpus/</link>
+      <link>https://kernelize.ai/blog/beyond-cpus-and-gpus/</link>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/beyond-cpus-and-gpus/</guid>
+      <guid>https://kernelize.ai/blog/beyond-cpus-and-gpus/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;main.png&#34; alt=&#34;CPU and GPU architectures&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;CPUs and GPUs have been at the center of the AI boom, and the capabilities of AI models have grown exponentially while running on these traditional processors. But, CPU and GPU hardware architectures were not designed for AI and we are increasingly hitting limits in efficiency and power consumption. &lt;a href=&#34;https://www.trgdatacenters.com/resource/gpu-vs-cpu-for-ai/&#34;&gt;LINK TO TRGDATACENTERS CPU vs GPU&lt;/a&gt; With all of the impressive LLMs and generative AI models available today, it is easy to forget we are still in the early days of AI. Future AI models will require far more efficient and custom hardware and software.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open Core Ventures announces Kernelize</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>https://kernelize.ai/posts/welcome/</link>
       <pubDate>Thu, 01 May 2025 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
+      <guid>https://kernelize.ai/posts/welcome/</guid>
       <description>&lt;p&gt;Open Core Ventures (OCV) has just unveiled &lt;strong&gt;Kernelize Inc.&lt;/strong&gt;, an innovative AI compiler platform designed to “bridge the CUDA moat” by auto-generating optimized backends for a wide variety of hardware targets. Built on the open-source Triton compiler, Kernelize lets developers write high-performance GPU kernels in Python once and deploy them across GPUs, NPUs, TPUs, and more—eliminating lock-in to any single vendor’s proprietary stack. Founded by industry veteran Simon Waters, whose résumé includes leading AMD’s Triton contributions and co-creating the Catapult C Synthesis tool, Kernelize aims to democratize AI performance and accelerate hardware-agnostic innovation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://kernelize.ai/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://kernelize.ai/about/</guid>
       <description>&lt;p&gt;Our team includes experts with extensive experience in Triton and building systems for AI inference.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://kernelize.ai/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://kernelize.ai/contact/</guid>
       <description>&lt;h1 id=&#34;contact-us&#34;&gt;Contact us&lt;/h1&gt;&#xA;&lt;p&gt;Please &lt;a href=&#34;mailto:simon@kernelize.ai&#34;&gt;Email Simon&lt;/a&gt; if you have any questions about Kernelize&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jobs</title>
-      <link>http://localhost:1313/jobs/</link>
+      <link>https://kernelize.ai/jobs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/jobs/</guid>
+      <guid>https://kernelize.ai/jobs/</guid>
       <description>&lt;p&gt;Welcome to our Jobs page!&lt;/p&gt;</description>
     </item>
     <item>
       <title>NPU Hardware Companies</title>
-      <link>http://localhost:1313/npu-hardware-companies/</link>
+      <link>https://kernelize.ai/npu-hardware-companies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/npu-hardware-companies/</guid>
+      <guid>https://kernelize.ai/npu-hardware-companies/</guid>
       <description>&lt;p&gt;Below is a list of NPU hardware companies in alphabetical order. Links are provided to an announcement post if we could not find the product page. There are currently 54 companies listed, or 51 active companies if you account for acquisitions.&lt;/p&gt;&#xA;&lt;p&gt;We do not want to try to describe companies ourselves. Contact Kernelize if you are a member of one of these companies and would like us to add a description to our page or update links.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pricing</title>
-      <link>http://localhost:1313/pricing/</link>
+      <link>https://kernelize.ai/pricing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pricing/</guid>
+      <guid>https://kernelize.ai/pricing/</guid>
       <description>&lt;p&gt;Looking for access to better AI Accelerator Hardware?&lt;/p&gt;&#xA;&lt;p&gt;Kernelize’s products will be released as soon as supported AI accelerator hardware is released. We will update this page with more information after each hardware release.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ai-inference-accelerator-hardware-providers&#34;&gt;AI Inference Accelerator Hardware Providers&lt;/h2&gt;&#xA;&lt;p&gt;Our goal at Kernelize is to seamlessly move GPU workloads to your AI Inference hardware. We provide access to an open-source compiler and consistent AI inference solutions for AI inference hardware. Please contact &lt;a href=&#34;mailto:sales@kernelize.com&#34;&gt;&lt;a href=&#34;mailto:sales@kernelize.com&#34;&gt;sales@kernelize.com&lt;/a&gt;&lt;/a&gt; if you would like to know more about Kernelize supporting your hardware.&lt;/p&gt;</description>
     </item>
   </channel>
